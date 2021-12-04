@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+
+    <title>Arística Papel Madera</title>
+</head>
+<body class="agregar">
+    <h1>Papel Madera</h1>
+    <button type="submit"><a style="text-decoration:none" href="index.html">Inicio</a></button>
+    <button type="submit"><a style="text-decoration:none" href="listar.php">Listar productos</a></button>
+    <button type="submit"><a style="text-decoration:none" href="agregar.html">Agregar productos</a></button>
+    <h2>Agregar productos</h2>
+    <p>Ingrese los datos del producto.</p>
+
+    <form method="post" action="agregar.php" enctype="multipart/form-data">
+        <label>Imagen</label>
+        <input type="file" name='imagen' placeholder="imagen">
+        <br>
+        <label>Producto</label>
+        <input type="text" name="Producto" placeholder="Producto" required>
+        <br>
+        <label>Marca</label>
+        <input type="text" name="Marca" placeholder="Marca" required>
+        <br>
+        <label>Observación</label>
+        <input type="text" name="Observacion" placeholder="Observación" required>
+        <br>
+        <label>Precio</label>
+        <input type="text" name="Precio" placeholder="Precio" required>
+        <br>
+        <input type="submit" name="submit" value="Ingresar">
+    </form>
+
+
+</body>
+</html>
