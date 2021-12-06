@@ -46,12 +46,13 @@ header{
   position: fixed;
   top:0;
   left:0;
-  margin-left: 45px;
+  margin-left: 4px;
+  flex-wrap: wrap;
   padding: 1em 1.5em;
   font-size: 20px;
-  width: 90%;
+  width:99%;
   height: 14.5%;
-  color: white;
+  background-color: #FF7F50;
   align-items:center;
   justify-content:center;
 }
@@ -310,10 +311,13 @@ footer{
 /* Reglas  */
 @media screen and (max-width:800px){
 .menu-navegacion{
-  width: 50vw;
+  width: 100%;
+  background-color: #FF7F50;
+  font-size:10px;
 }
 .titulo{
   font-size: 40px;
+  text-align: center;
 }
 
 .contenedor-servicio img{
@@ -358,11 +362,13 @@ footer{
 
 @media screen and (max-width:500px) {
   .menu-navegacion{
-    width: 65vw;
+    width: 100%;
+      background-color: #FF7F50;
 }
 
 .titulo{
-  font-size: 30px;
+  font-size: 25px;
+  text-align: center;
 }
 
 .subtitulo{
